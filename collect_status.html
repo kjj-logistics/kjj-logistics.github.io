@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>숙소비품관리</title>
+		<style>
+			p {
+				margin: 0;
+				padding: 0;
+			}
+			.menu {
+				border-width: 1vw;
+				border-color: black;
+				text-align: center;
+				border-radius: 5vw;
+				font-size: 10vw;
+				width: 100%;
+				margin-top: 2vw;
+				margin-bottom: 2vw;
+				padding-top: 4vw;
+				padding-bottom: 4vw;
+			}
+			.back {
+				background-color: pink;
+				border-width: 1vw;
+				border-color: black;
+				text-align: center;
+				border-radius: 5vw;
+				font-size: 10vw;
+				width: 100%;
+				margin-top: 2vw;
+				margin-bottom: 2vw;
+				padding-top: 1vw;
+				padding-bottom: 1vw;
+            	bottom: 1vw;
+            	left: 0;
+			}
+			.content {
+				width: 100%;
+				text-align: center;
+				display: flex;
+    			align-items: center;
+    			justify-content: center;
+			}
+			.info {
+				display: inline-block;
+				margin-right: 15vw;
+				text-align: left;
+			}
+			.name {
+				font-size: 4vw;
+			}
+			.money {
+				color: red;
+			}
+			.duration {
+				display: inline-block;
+				font-size: 4.5vw;
+			}
+			.menu-spacer {
+				display: inline-block;
+				height: 30vw;
+			}
+			.header {
+				background-color: lightgrey;
+				text-align: center;
+				width: 100%;
+				position: fixed;
+            	top: 0;
+            	left: 0;
+			}
+			.heading {
+				font-size: 8vw;
+			}
+			.heading-status {
+				font-size: 4.5vw;
+			}
+			.last-mod-date {
+				font-size: 4.5vw;
+			}
+			.contents {
+				display: inline-block;
+				padding-top: 10vw;
+				padding-bottom: 30vw;
+			}
+			.footer {
+				background-color: lightgrey;
+				text-align: center;
+				width: 100%;
+				position: fixed;
+            	bottom: 0;
+            	left: 0;
+			}
+		</style>
+	</head>
+	<body>		
+		<div class="header">
+			<p class="heading">수금현황</p>
+			<p class="heading-status">총 입금: <b class="money">140,000</b></p>
+		</div>
+		<div class="contents">
+				<button class="menu">
+				<div class="content">
+					<div class="info">
+						<p class="name">5차 수금</p>
+						<p class="money">140,000원</p>
+					</div>
+					<div class="duration">
+						<p>2022.04.24<br>~<br>2022.04.24</p>
+					</div>
+				</div>
+			</button>
+			<button class="menu">4차 수금</button>
+			<button class="menu">3차 수금</button>
+			<button class="menu">2차 수금</button>
+			<button class="menu">1차 수금</button>
+		</div>
+		<div class="footer">
+			<p class="last-mod-date">2022년 4월 24일 12:00 기준</p>
+			<button class="back">돌아가기</button>
+		</div>
+	</body>
+</html>
